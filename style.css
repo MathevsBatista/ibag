@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    color: #330001ff;
+}
+
+h2 {
+    font-family: "Inter",sans-serif;
+    font-size: 50px;
+    letter-spacing: -0.045em;
+}
+
+a {
+    color: #330001ff;
+    font-family: "Inter",sans-serif;
+    text-decoration: none;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
+    margin-bottom: 3em;
+    border-bottom: 1px;
+}
+
+.logo {
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+}
+
+.topbar-logo {
+    width: 40px;
+}
+
+.links {
+    padding-right: 20px;
+    align-self: center;
+}
+
+.link-button {
+    padding: 5px 10px; 
+    border: 1px;
+    background-color: 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.opening {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whoami {
+    flex: 1 1 40%;
+    align-self: center;
+}
+
+.whoami p {
+    font-size: 20px;
+}
+
+.imagem-igreja {
+    display: block;
+    flex: 1 1 40%;
+    max-width: 40%;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+.doctrine {
+    display: flex;
+    flex-direction: column;
+}
+
+.protestant, .calvinist, .reformed {
+    display: flex;
+}
+
+.protestant div, .calvinist div, .reformed div {
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+}
+
